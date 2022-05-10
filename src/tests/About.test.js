@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { render, screen } from '@testing-library/react';
 import renderWithRouter from '../renderWithRouter';
 import About from '../components/About';
