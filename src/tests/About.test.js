@@ -16,10 +16,8 @@ describe('Teste o componente <About.js />.', () => {
 
   test('Existe dois paragrafos sobre a pokedex', () => {
     render(<About />);
-
     const paragraphOne = screen.getByText(/This application simulates/);
     const paragraphTwo = screen.getByText(/One can filter/);
-
     expect(paragraphOne).toBeInTheDocument();
     expect(paragraphTwo).toBeInTheDocument();
   });
