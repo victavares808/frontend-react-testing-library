@@ -49,13 +49,4 @@ describe('Teste se o topo da aplicação contém um conjunto fixo de links de na
     const { pathname } = history.location;
     expect(pathname).toBe('/favorites');
   });
-
-  /*   test ('Teste se a aplicação é redirecionada para a página Not Found ao entrar em uma URL desconhecida.', () => {
-        const { history } = renderWithRouter(<App />);
-
-        const pageNotFound = screen.getByRole('link', { name: ''})
-
-        history.push('/pagina/que-nao-existe/');
-    })
- */
 });
